@@ -1,0 +1,323 @@
+
+.Main1{
+cursor: pointer;
+margin-left: 25px;
+box-shadow: 1px 1px 6px rgb(106, 102, 102);
+width: 250px;
+display: inline-block;
+margin-top: 20px;
+
+
+}
+
+
+.Main1 .PicDiv1{
+cursor: pointer;
+width: 250px;
+
+
+}
+
+
+
+
+.Main1 .PicDiv1 .Rasm1{
+width: 250px;
+margin-bottom: 0;
+
+}
+
+
+.Main1 .Text1{
+cursor: pointer;
+
+
+}
+
+
+.Main1 .Text1 .Name1{
+font-family: Roboto;
+font-weight: bold;
+margin-left: 10px;
+font-size: 19px;
+margin-top: 12px;
+margin-bottom: 0;
+
+}
+
+
+
+.Main1 .Text1 .ProfTxt1{
+cursor: progress;
+display: block;
+
+}
+
+
+.Main1 .Text1 .ProfTxt1 .Profpic1{
+width: 50px;
+height: 50px;
+border-radius: 30px;
+margin-top: 8px;
+margin-left: 8px;
+display: inline-block;
+
+}
+
+
+
+
+.Main1 .Text1 .ProfTxt1 .Mutual1{
+display: inline-block;
+vertical-align: top;
+margin-left: 5px;
+margin-top: 25px;
+font-family: Roboto, Arial, Helvetica, sans-serif;
+color: rgb(91, 87, 87);
+
+}
+
+
+
+
+
+
+.Main1 .Text1 .Button1{
+background-color: rgb(51, 51, 200);
+color: white;
+border: none;
+margin-left: 10px;
+padding-bottom: 7px;
+padding-top: 7px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 6px;
+margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Main2{
+cursor: pointer;
+margin-left: 45px;
+box-shadow: 1px 1px 6px rgb(106, 102, 102);
+width: 250px;
+display: inline-block;
+
+
+}
+
+
+.Main2 .PicDiv2{
+cursor: pointer;
+width: 250px;
+
+
+}
+
+
+
+
+.Main2 .PicDiv2 .Rasm2{
+width: 250px;
+margin-bottom: 0;
+
+}
+
+
+.Main2 .Text2{
+cursor: pointer;
+
+
+}
+
+
+.Main2 .Text2 .Name2{
+font-family: Roboto;
+font-weight: bold;
+margin-left: 10px;
+font-size: 19px;
+margin-top: 12px;
+margin-bottom: 0;
+
+}
+
+
+
+.Main2 .Text2 .ProfTxt2{
+cursor: progress;
+display: block;
+
+}
+
+
+.Main2 .Text2 .ProfTxt2 .Profpic2{
+width: 50px;
+height: 50px;
+border-radius: 30px;
+margin-top: 8px;
+margin-left: 8px;
+display: inline-block;
+
+}
+
+
+
+
+.Main2 .Text2 .ProfTxt2 .Mutual2{
+display: inline-block;
+vertical-align: top;
+margin-left: 5px;
+margin-top: 25px;
+font-family: Roboto, Arial, Helvetica, sans-serif;
+color: rgb(91, 87, 87);
+
+}
+
+
+
+
+
+
+.Main2 .Text2 .Button2{
+background-color: rgb(51, 51, 200);
+color: white;
+border: none;
+margin-left: 10px;
+padding-bottom: 7px;
+padding-top: 7px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 6px;
+margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Main3{
+cursor: pointer;
+margin-left: 45px;
+box-shadow: 1px 1px 6px rgb(106, 102, 102);
+width: 250px;
+display: inline-block;
+
+}
+
+
+.Main3 .PicDiv3{
+cursor: pointer;
+width: 250px;
+
+
+}
+
+
+
+
+.Main3 .PicDiv3 .Rasm3{
+width: 250px;
+margin-bottom: 0;
+height: 167px;
+
+}
+
+
+.Main3 .Text3{
+cursor: pointer;
+
+
+}
+
+
+.Main3 .Text3 .Name3{
+font-family: Roboto;
+font-weight: bold;
+margin-left: 10px;
+font-size: 19px;
+margin-top: 12px;
+margin-bottom: 0;
+
+}
+
+
+
+.Main3 .Text3 .ProfTxt3{
+cursor: progress;
+display: block;
+
+}
+
+
+.Main3 .Text3 .ProfTxt3 .Profpic3{
+width: 50px;
+height: 50px;
+border-radius: 30px;
+margin-top: 8px;
+margin-left: 8px;
+display: inline-block;
+
+}
+
+
+
+
+.Main3 .Text3 .ProfTxt3 .Mutual3{
+display: inline-block;
+vertical-align: top;
+margin-left: 5px;
+margin-top: 25px;
+font-family: Roboto, Arial, Helvetica, sans-serif;
+color: rgb(91, 87, 87);
+
+}
+
+
+
+
+
+
+.Main3 .Text3 .Button3{
+background-color: rgb(51, 51, 200);
+color: white;
+border: none;
+margin-left: 10px;
+padding-bottom: 7px;
+padding-top: 7px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 6px;
+margin-bottom: 10px;
+
+}
+
+
+
+
+
+

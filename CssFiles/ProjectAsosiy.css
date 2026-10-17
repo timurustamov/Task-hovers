@@ -1,0 +1,654 @@
+body{
+padding-top: 90px;
+padding-bottom:500px;
+padding-left: 110px;
+background-color: rgb(242, 242, 242);
+padding-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+.EnormousDiv{
+cursor: pointer;
+display: grid;
+grid-template-columns: 1fr 1fr  1fr;
+column-gap: 30px;
+row-gap: 40px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+@media( max-width: 1000px ) {
+.EnormousDiv{
+grid-template-columns: 1fr 1fr;
+
+}
+
+
+}
+
+
+
+
+@media( min-width: 1200px ) {
+.EnormousDiv{
+grid-template-columns: 1fr 1fr 1fr ;
+font-size: 22px;
+
+
+}
+
+
+.LinkWord1, .LinkWord2, .LinkWord3{
+font-size: 26px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Main1{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+
+}
+
+
+.ImgDiv1{
+position: relative;
+
+}
+
+
+.Sundar{
+width:100% ;
+
+
+}
+
+
+.VideoTime1{
+position: absolute;
+bottom: 15px;
+right: 15px;
+background-color: black;
+color: white;
+padding: 5px;
+
+
+}
+
+
+
+.TextDiv1{
+display: flex;
+column-gap: 10px;
+
+}
+
+
+
+
+
+.Matnlar1{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+
+}
+
+
+.Title1{
+font-weight: bold;
+
+
+}
+
+
+
+.Title1 .LinkWord1{
+text-decoration: none;
+color: black;
+cursor: grab;
+
+}
+
+
+
+.Author1{
+color: rgb(112, 110, 110);
+
+
+}
+
+
+.Views1{
+color: rgb(107, 105, 105);
+
+
+}
+
+
+
+
+.HoverDiv{
+position: relative;
+
+
+}
+
+
+
+
+
+
+.ProfilePic1{
+width: 50px;
+height: 50px;
+border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+.HoverPart{
+position: absolute;
+display: flex;
+align-items: center;
+column-gap: 10px;
+
+opacity: 0;
+
+bottom: -35px;
+left: 30px;
+background-color: white;
+box-shadow: 2px 2px 5px gray ;
+white-space: nowrap;
+padding: 15px 12px 15px 12px;
+pointer-events: none;
+transition: 0.5s;
+
+}
+
+
+
+
+
+
+.HoverDiv:hover .HoverPart{
+opacity: 1;
+
+}
+
+
+
+
+
+
+.InvisibleProfile{
+width: 60px;
+height: 60px;
+border-radius: 30px;
+
+}
+
+
+
+.HoverText{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+
+
+}
+
+.AuthorInvisible1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+
+}
+
+
+
+
+
+.Subscribers1{
+font-size: large;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Main2{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+
+}
+
+
+.ImgDiv2{
+position: relative;
+
+}
+
+
+.Markiplier{
+width:100% ;
+
+
+}
+
+
+.VideoTime2{
+position: absolute;
+bottom: 15px;
+right: 15px;
+background-color: black;
+color: white;
+padding: 5px;
+
+
+}
+
+
+
+.TextDiv2{
+display: flex;
+column-gap: 10px;
+
+}
+
+
+
+
+
+.Matnlar2{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+
+}
+
+
+.Title2{
+font-weight: bold;
+
+
+
+}
+
+
+
+.Title2 .LinkWord2{
+text-decoration: none;
+color: black;
+
+}
+
+
+
+
+
+.Author2{
+color: rgb(112, 110, 110);
+
+
+}
+
+
+.Views2{
+color: rgb(107, 105, 105);
+
+
+}
+
+
+
+
+.HoverDiv2{
+position: relative;
+
+
+}
+
+
+
+
+
+
+.ProfilePic2{
+width: 50px;
+height: 50px;
+border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+.HoverPart2{
+position: absolute;
+display: flex;
+align-items: center;
+column-gap: 10px;
+
+opacity: 0;
+
+bottom: -35px;
+left: 30px;
+background-color: white;
+box-shadow: 2px 2px 5px gray ;
+white-space: nowrap;
+padding: 15px 12px 15px 12px;
+pointer-events: none;
+transition: 0.5s;
+
+}
+
+
+
+
+
+
+.HoverDiv2:hover .HoverPart2{
+opacity: 1;
+
+}
+
+
+
+
+
+
+.InvisibleProfile2{
+width: 60px;
+height: 60px;
+border-radius: 30px;
+
+}
+
+
+
+.HoverText2{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+
+
+}
+
+.AuthorInvisible2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+
+}
+
+
+
+
+
+.Subscribers2{
+font-size: large;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Main3{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+
+}
+
+
+.ImgDiv3{
+position: relative;
+
+}
+
+
+.SSSniperWolf{
+width:100% ;
+
+
+}
+
+
+.VideoTime3{
+position: absolute;
+bottom: 15px;
+right: 15px;
+background-color: black;
+color: white;
+padding: 5px;
+
+
+}
+
+
+
+.TextDiv3{
+display: flex;
+column-gap: 10px;
+
+}
+
+
+
+
+
+.Matnlar3{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+
+}
+
+
+.Title3{
+font-weight: bold;
+
+
+
+}
+
+
+
+.Title3 .LinkWord3{
+text-decoration: none;
+color: black;
+
+}
+
+
+
+
+
+.Author3{
+color: rgb(112, 110, 110);
+
+
+}
+
+
+.Views3{
+color: rgb(107, 105, 105);
+
+
+}
+
+
+
+
+.HoverDiv3{
+position: relative;
+
+
+}
+
+
+
+
+
+
+.ProfilePic3{
+width: 50px;
+height: 50px;
+border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+.HoverPart3{
+position: absolute;
+display: flex;
+align-items: center;
+column-gap: 10px;
+
+opacity: 0;
+
+bottom: -35px;
+left: 30px;
+background-color: white;
+box-shadow: 2px 2px 5px gray ;
+white-space: nowrap;
+padding: 15px 12px 15px 12px;
+pointer-events: none;
+transition: 0.5s;
+
+}
+
+
+
+
+
+
+.HoverDiv3:hover .HoverPart3{
+opacity: 1;
+
+}
+
+
+
+
+
+
+.InvisibleProfile3{
+width: 60px;
+height: 60px;
+border-radius: 30px;
+
+}
+
+
+
+.HoverText3{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+
+
+}
+
+.AuthorInvisible3{
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+
+}
+
+
+
+
+
+.Subscribers3{
+font-size: large;
+
+
+}
+

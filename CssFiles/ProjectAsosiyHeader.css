@@ -1,0 +1,370 @@
+.Header{
+display: flex;
+justify-content: space-between;
+height: 72px;
+background-color: white;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1;
+border-bottom: 1px solid rgb(227, 226, 226) ;
+
+}
+
+
+
+.LeftSection{
+width: 168px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 31px;
+
+}
+
+
+.HamburgerMenu{
+width: 30px;
+
+}
+
+
+.YoutubeLogo{
+width: 110px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.MiddleSection{
+cursor: pointer;
+display: flex;
+align-items: center;
+width: 500px;
+
+
+}
+
+
+
+.Input{
+flex: 1;
+height: 40px;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+border: 1px solid rgb(201, 201, 201);
+
+}
+
+
+
+.Input::placeholder{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+.Button1{
+width: 70px;
+height: 43px;
+background-color: rgb(253, 251, 251);
+border: 1px solid rgb(201, 201, 201);
+margin-left: -1px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+cursor: pointer;
+
+
+}
+
+
+.HoverSearch{
+position: absolute;
+background-color: rgba(15, 14, 14, 0.8);
+color: white;
+padding: 7px;
+font-family: Arial, Helvetica, sans-serif;
+bottom: -40px;
+font-weight: 500;
+opacity: 0;
+pointer-events: none;
+transition: 0.3s;
+
+}
+
+
+
+
+.Button1:hover .HoverSearch{
+opacity: 1;
+
+}
+
+
+
+.Lupa{
+width: 30px;
+
+}
+
+
+
+
+
+
+
+.Button2{
+width: 42px;
+height: 42px;
+border-radius: 21px;
+border: none;
+background-color: rgb(248, 247, 247);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 10px;
+position: relative;
+cursor: pointer;
+
+}
+
+
+.HoverVoice{
+position: absolute;
+background-color: rgba(18, 17, 18, 0.8);
+color: white;
+padding: 7px;
+font-family: Arial, Helvetica, sans-serif;
+bottom: -40px;
+font-weight: 500;
+opacity: 0;
+pointer-events: none;
+transition: 0.3s;
+white-space: nowrap;
+
+}
+
+
+
+.Button2:hover .HoverVoice{
+opacity: 1;
+
+}
+
+
+
+.Mikrafon{
+width: 26px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.RightSection{
+width: 180px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-right: 30px;
+
+}
+
+
+
+.CameraHover{
+position: relative;
+display: flex;
+justify-content: center;
+cursor: pointer;
+
+}
+
+
+.Create{
+position: absolute;
+background-color:  rgba(18, 17, 18, 0.8);
+color: white;
+padding: 8px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+bottom: -40px;
+opacity: 0;
+transition: 0.3s;
+pointer-events: none;
+
+}
+
+
+
+.CameraHover:hover .Create{
+opacity: 1;
+
+}
+
+
+
+
+
+
+.YoutubeApps{
+position: relative;
+display: flex;
+justify-content: center;
+cursor: pointer;
+}
+
+
+.Apps{
+background-color:rgba(18, 17, 18, 0.8);
+color: white;
+position: absolute;
+bottom: -40px;
+padding: 8px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+bottom: -40px;
+opacity: 0;
+transition: 0.3s;
+white-space: nowrap;
+pointer-events: none;
+
+}
+
+
+
+
+
+.YoutubeApps:hover .Apps{
+opacity: 1;
+
+}
+
+
+
+
+
+.NotifDiv{
+position: relative;
+display: flex;
+justify-content: center;
+cursor: pointer;
+
+}
+
+
+
+
+.HoverNotif{
+position: absolute;
+background-color:rgba(18, 17, 18, 0.8);
+color: white;
+bottom: -40px;
+padding: 8px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+bottom: -40px;
+opacity: 0;
+transition: 0.3s;
+white-space: nowrap;
+pointer-events: none;
+
+}
+
+
+
+
+.NotifDiv:hover .HoverNotif{
+opacity: 1;
+
+}
+
+
+
+
+.NotifCount{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(204, 54, 54);
+top: -2px;
+right: -1px;
+width: 16px;
+color: white;
+height: 16px;
+border-radius: 8px;
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+.RightSection img{
+width: 30px;
+
+}
+
+
+
+.PhotoTima{
+width: 30px;
+height: 30px;
+border-radius: 15px;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:900px ) {
+.MiddleSection{
+width: 350px;
+
+}
+
+
+}
+
+
+
+
+
+
+

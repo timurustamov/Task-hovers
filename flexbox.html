@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Flexbox Element</title>
+
+
+<style>  
+
+
+
+body{
+
+  padding-bottom: 1000px;
+
+}
+
+
+
+.Practice1{
+display: flex;
+flex-direction: row;
+justify-content: left ;
+
+
+
+}
+
+
+
+.Divfirst{
+width: 200px;
+background-color: aqua;
+
+}
+
+.Divsecond{
+width: 75px;
+background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Practice2{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 50px;
+
+
+}
+
+
+
+
+.Itemfirst{
+background-color: red;
+width: 50px;
+
+
+}
+
+
+
+.Itemtwo{
+background-color: aqua;
+flex: 1;
+
+}
+
+
+.Itemthree{
+background-color: bisque;
+width: 75px;
+
+}
+
+
+
+
+
+
+
+
+
+.Practice3{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 100px;
+
+}
+
+
+
+
+.Fast1{
+background-color: aquamarine;
+
+}
+
+
+.Fast2{
+background-color: aquamarine;
+
+}
+
+.Fast3{
+background-color: aquamarine;
+
+}
+
+.Fast4{
+background-color: aquamarine;
+
+}
+
+
+
+
+
+
+
+
+
+
+.Practice4{
+display: flex;
+flex-direction: row;
+width: 400px;
+height: 60px;
+justify-content: space-between;
+margin-top: 70px;
+border-color: gray;
+border-style: solid;
+align-items: center;
+
+}
+
+
+
+
+.San{
+background-color: aqua;
+
+}
+
+
+
+.South{
+background-color: bisque;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.EnormousDiv1{
+cursor: pointer;
+margin-top: 150px;
+width: 350px;
+height: 100px;
+box-shadow: 2px 2px 5px gray;
+
+}
+
+
+
+
+
+
+
+
+.Main1{
+display: flex;
+justify-content: space-between;
+height: 30px;
+align-items: center;
+
+
+}
+
+
+
+
+.Home{
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 10px;
+
+}
+
+
+.Four{
+width: 40px;
+background-color: blue;
+border-radius: 8px;
+color: white;
+text-align: center;
+margin-right: 10px;
+
+}
+
+
+
+
+
+
+.Main2{
+display: flex;
+justify-content: space-between;
+height: 30px;
+align-items: center;
+
+
+}
+
+
+
+
+.Notif{
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 10px;
+
+}
+
+
+.three{
+width: 25px;
+background-color: blue;
+border-radius: 15px;
+color: white;
+text-align: center;
+margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+.Main3{
+display: flex;
+justify-content: space-between;
+height: 30px;
+align-items: center;
+
+
+}
+
+
+
+
+.Messages{
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 10px;
+
+}
+
+
+.five{
+width: 25px;
+background-color: blue;
+border-radius: 15px;
+color: white;
+text-align: center;
+margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.EnormousDiv2{
+
+margin-top: 130px;
+width: 750px;
+height: 60px;
+background-color: blueviolet;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+
+
+
+.Uy{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 10px;
+font-weight: 100;
+
+
+}
+
+
+
+
+.Search{
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 15px;
+padding-right: 250px;
+border-radius: 25px;
+border: none;
+
+
+}
+
+
+
+
+
+.Download{
+padding-top: 10px;
+padding-bottom:10px;
+padding-left: 15px;
+padding-right: 15px;
+border-color: white;
+border-style: solid;
+text-align: center;
+margin-right: 10px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.EnormousDiv3{
+cursor: pointer;
+margin-top: 150px;
+margin-left: 30px;
+width: 490px;
+height: 360px;
+border-color: gray;
+border-style: solid;
+
+
+}
+
+
+
+
+
+
+
+.Asos1{
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1px;
+
+}
+
+
+
+
+.KichikAsos1{
+cursor: pointer;
+display: flex;
+margin-left: 20px;
+width: 145px;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+
+.PicDiv1{
+cursor: pointer;
+
+}
+
+
+
+.Img1{
+width: 75px;
+height: 75px;
+border-radius: 50px;
+
+
+}
+
+
+.Name1{
+font-family: Arial, Helvetica, sans-serif;
+
+
+} 
+
+
+
+.Feature1{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(90, 85, 85);
+
+
+}
+
+
+.Popular1{
+font-family: Arial, Helvetica, sans-serif;
+color:  rgb(90, 85, 85);
+
+}
+
+
+
+
+
+
+.Button1{
+background-color: blue;
+color: white;
+border: none;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+border-radius: 5px;
+margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Asos2{
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1px;
+
+}
+
+
+
+
+.KichikAsos2{
+cursor: pointer;
+display: flex;
+margin-left: 20px;
+width: 153px;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+
+.PicDiv2{
+cursor: pointer;
+
+}
+
+
+
+.Img2{
+width: 75px;
+height: 75px;
+border-radius: 50px;
+
+
+}
+
+
+.Name2{
+font-family: Arial, Helvetica, sans-serif;
+
+
+} 
+
+
+
+.Feature2{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(90, 85, 85);
+
+
+}
+
+
+.Popular2{
+font-family: Arial, Helvetica, sans-serif;
+color:  rgb(90, 85, 85);
+
+}
+
+
+
+
+
+
+.Button2{
+background-color: blue;
+color: white;
+border: none;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+border-radius: 5px;
+margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Asos3{
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1px;
+
+}
+
+
+
+
+.KichikAsos3{
+cursor: pointer;
+display: flex;
+margin-left: 20px;
+width: 193px;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+
+.PicDiv3{
+cursor: pointer;
+
+}
+
+
+
+.Img3{
+width: 75px;
+height: 75px;
+border-radius: 50px;
+
+
+}
+
+
+.Name3{
+font-family: Arial, Helvetica, sans-serif;
+
+
+} 
+
+
+
+.Feature3{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(90, 85, 85);
+
+
+}
+
+
+.Popular3{
+font-family: Arial, Helvetica, sans-serif;
+color:  rgb(90, 85, 85);
+
+}
+
+
+
+
+
+
+.Button3{
+background-color: blue;
+color: white;
+border: none;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+border-radius: 5px;
+margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+  
+
+
+<div class="Practice1"> 
+
+<div class=" Divfirst">200px</div>
+<div class=" Divsecond">75px</div>
+
+</div>
+
+
+
+
+
+<div class="Practice2 ">  
+
+
+
+
+<div class="Itemfirst"> Item 1  </div>
+
+<div class="Itemtwo">Item2   </div>
+
+<div class="Itemthree"> Item3</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="Practice3">  
+
+
+<div class="Fast1">Fast1</div>
+<div class="Fast2">Fast2</div>
+<div class="Fast3">Fast3</div>
+<div class="Fast4">Fast4</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class=" Practice4">
+
+<div class="San">San Diego </div>
+<div class=" South">South Dakota </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class=" EnormousDiv1">     
+
+
+
+
+
+<div class=" Main1">  
+  
+<div class="Home "> Home  </div>
+<div class="Four"> 14 </div>
+
+</div>
+
+
+
+
+
+
+<div class="Main2">  
+
+<div class="Notif"> Notifications </div>
+<div class="three"> 3 </div>
+
+</div>
+
+
+
+
+
+
+<div class="Main3"> 
+  
+<div class=" Messages">Messages  </div> 
+<div class="five">  5</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="EnormousDiv2">   
+
+
+<div class="Uy"> Home</div>
+<div class="Qidirish"> <input class="Search" type="text" placeholder="Search"></div>
+<div class="Download"> Dowload</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="EnormousDiv3">
+
+
+
+
+
+<div class="Asos1"> 
+
+
+
+<div class="KichikAsos1"> 
+  
+<div class="PicDiv1"> <img class="Img1" src="Images/Cats image.jpg" alt="">  </div>
+
+
+<div class="MatnDiv1"> 
+<p> <strong class="Name1">Oliver</strong>  </p>  
+<p class="Feature1">the cat</p>
+<p class="Popular1"> Popular </p>
+
+</div> 
+
+
+</div>
+
+
+
+
+
+<div class="ButtonDiv1">
+
+<button class="Button1">  Follow   </button>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Asos2"> 
+
+
+
+<div class="KichikAsos2"> 
+  
+<div class="PicDiv2"> <img class="Img2" src="Images/Panda3.jpg" alt="">  </div>
+
+
+<div class="MatnDiv2"> 
+<p> <strong class="Name2">Bao Pao</strong>  </p>  
+<p class="Feature2"> Kungfu</p>
+<p class="Popular2"> Popular </p>
+
+</div> 
+
+
+</div>
+
+
+
+
+
+<div class="ButtonDiv2">
+
+<button class="Button2">  Follow   </button>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Asos3"> 
+
+
+
+<div class="KichikAsos3"> 
+  
+<div class="PicDiv3"> <img class="Img3" src="Images/Dog1.jpg" alt="">  </div>
+
+
+<div class="MatnDiv3"> 
+<p> <strong class="Name3"> Rex</strong>  </p>  
+<p class="Feature3"> Happy Bulldog</p>
+<p class="Popular3"> Popular </p>
+
+</div> 
+
+
+</div>
+
+
+
+
+
+<div class="ButtonDiv3">
+
+<button class="Button3">  Follow   </button>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+</html>

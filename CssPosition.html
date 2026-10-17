@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Css Position</title>
+
+
+<style>
+
+
+body{
+padding-bottom: 2000px;
+
+}
+
+
+
+
+
+.Right-Sidebar{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+width: 150px;
+background-color:rgb(11, 122, 11) ;
+color: white;
+
+}
+
+
+
+
+
+.Overlay{
+
+background-color: rgba(139, 130, 130, 0.8);
+position: fixed;
+top: 0px;
+bottom: 0;
+right: 150px;
+left: 0px;
+display: flex;
+align-items: center;
+
+
+}
+
+
+
+
+.Modal{
+
+height: 150px;
+background-color: white;
+border-radius: 10px;
+padding-left: 15px;
+position: fixed;
+left: 110px;
+right: 110px;
+
+
+
+}
+
+
+
+.Big{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Small{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+</head>
+
+
+
+
+<body >
+  
+
+<div class="Right-Sidebar"> Right-Sidebar </div>
+
+
+
+<div class="Overlay"> 
+
+<div class="Modal">
+<h1 class="Big">Modal Title</h1>
+<p class="Small">This is a modal </p>
+<button class="button">Close</button>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

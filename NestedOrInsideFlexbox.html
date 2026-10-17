@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Inside The Flexbox </title>
+
+
+<style>
+
+.Main1{
+display: flex;
+flex-direction: row;
+
+
+}
+
+
+
+.Element1{
+width: 100px;
+background-color: blueviolet;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+
+.Button1{
+background-color: black;
+color: white;
+
+}
+
+
+
+.Element2{
+width: 200px;
+background-color: aqua;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Main2{
+display: flex;
+flex-direction: row;
+margin-top: 60px;
+
+
+}
+
+
+
+.Element3{
+width: 100px;
+height: 50px;
+background-color: blanchedalmond;
+
+}
+
+
+.Element4{
+display: flex;
+width: 200px;
+background-color: cadetblue;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+
+}
+
+
+.Column{
+cursor: pointer;
+
+
+}
+
+.Row1{
+margin-top: 0;
+margin-bottom: 0;
+
+
+}
+
+
+.Piy{
+margin-top: 0;
+
+background-color: black;
+color: white;
+
+}
+
+
+
+.Row2{
+margin-top: 0;
+margin-bottom: 0;
+background-color: black;
+color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Main3{
+width: 480px;
+height: 400px;
+border-style: solid;
+border-color: gray;
+margin-top: 50px;
+margin-left: 30px;
+padding-left: 10px;
+padding-right: 10px;
+
+
+}
+
+
+
+.Inbox{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(94, 92, 92);
+font-size: larger;
+margin-left: 10px;
+
+}
+
+
+
+
+.Parent1{
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: start;
+margin-bottom: 10px;
+
+}
+
+
+
+.Cat1{
+width: 70px;
+height: 70px;
+border-radius: 35px;
+
+
+}
+
+
+
+
+.Company1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+
+.Maqtov1{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 0;
+
+}
+
+
+.Yozuv1{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(106, 103, 103);
+margin-top: 8px;
+
+
+}
+
+
+
+
+.Time{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(91, 88, 88);
+margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Parent2{
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: start;
+margin-bottom: 10px;
+
+}
+
+
+
+.Cat2{
+width: 70px;
+height: 70px;
+border-radius: 35px;
+
+
+}
+
+
+
+
+.Company2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+
+.Maqtov2{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 0;
+
+}
+
+
+.Yozuv2{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(106, 103, 103);
+margin-top: 8px;
+
+
+}
+
+
+
+
+.Time2{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(91, 88, 88);
+margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Parent3{
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: start;
+margin-bottom: 10px;
+
+}
+
+
+
+.Cat3{
+width: 70px;
+height: 70px;
+border-radius: 35px;
+
+
+}
+
+
+
+
+.Company3{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+
+.Maqtov3{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 0;
+
+}
+
+
+.Yozuv3{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(106, 103, 103);
+margin-top: 8px;
+
+
+}
+
+
+
+
+.Time3{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(91, 88, 88);
+margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Main4{
+cursor: pointer;
+margin-top: 100px;
+width: 510px;
+height: 245px;
+border-style: solid;
+border-color: gray;
+margin-left: 30px;
+display: flex;
+justify-content: space-between;
+align-items: start;
+padding-top: 20px;
+padding-left: 20px;
+
+
+}
+
+
+
+
+.ChildDiv1{
+width: 70px;
+height: 70px;
+border-radius: 35px;
+
+
+}
+
+
+
+
+
+.Piiy{
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+
+
+.KursGapi1{
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+.Span{
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+
+
+.KursGapi2{
+font-size: 19px;
+width: 420px;
+margin-top: 8px;
+line-height: 23px;
+
+}
+
+
+
+
+
+.ChildDiv2{
+cursor: pointer;
+
+
+}
+
+
+
+
+
+
+
+
+
+.Gaplar2Main{
+display: flex;
+align-items: center;
+width: 400px;
+height: 130px;
+border-width: 1px;
+border-style: solid;
+border-color:  rgb(197, 197, 197);
+border-radius: 20px;
+
+}
+
+
+
+
+
+.Slice1{
+width: 210px;
+margin-left: 15px;
+
+}
+
+
+.youtube{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(77, 74, 74);
+margin-bottom: 0;
+
+}
+
+
+.Backend{
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 6px;
+line-height: 21px;
+
+}
+
+
+
+
+.GrayCorner{
+width: 150px;
+height: 130px;
+background-color: rgb(197, 197, 197);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+
+}
+
+
+
+
+</style>
+
+
+</head>
+
+
+
+
+
+
+
+
+<body style="padding-bottom: 1000px;">
+  
+
+
+<div class="Main1"> 
+  
+
+<div class="Element1">
+
+<Button class="Button1"> Item1 </Button>
+<Button class="Button1"> Item1 </Button>
+
+</div>
+
+
+<div class="Element2"> </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="Main2">
+
+
+<div class="Element3"> </div>
+
+
+<div class="Element4"> 
+  
+<div class="Column">
+<p class="Row1"> row1</p>
+<p class="Piy">row2</p>
+</div>
+
+
+<p class="Row2">row2</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class=" Main3">
+
+<h1 class="Inbox " >ALL INBOXES  </h1>
+
+
+
+
+
+<div class="Parent1">
+
+<img class="Cat1" src="Images/Cats image.jpg" alt="">
+
+<div class="Matn1"> 
+<h1 class="Company1">Chewy Promotions </h1>
+<p class="Maqtov1">Biggest sales of the year!  </p>
+<p class="Yozuv1">Hey there! We're writing to tell you about our...  </p>
+
+</div>
+
+
+
+<p class="Time">4&#58;58 PM </p>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Parent2">
+
+<img class="Cat2" src="Images/Dog1.jpg" alt="">
+
+<div class="Matn2"> 
+<h1 class="Company2"> Best Buy </h1>
+<p class="Maqtov2"> Your best Buy eReceipt  </p>
+<p class="Yozuv2"> Thank you for shopping at Best buy, here is...  </p>
+
+</div>
+
+
+
+<p class="Time2">12&#58;32 PM </p>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Parent3">
+
+<img class="Cat3" src="Images/Panda3.jpg" alt="">
+
+<div class="Matn3"> 
+<h1 class="Company3"> Netflix </h1>
+<p class="Maqtov3">  Here is what's coming soon to Netflix   </p>
+<p class="Yozuv3"> Brand new movies and shows, old favorites...  </p>
+
+</div>
+
+
+
+<p class="Time3"> 9 &#58;00 AM </p>
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class=" Main4">   
+
+
+<img class="ChildDiv1" src="Images/Cats image.jpg" alt="">
+
+
+
+
+<div class="ChildDiv2"> 
+  
+<div class="Gaplar1">
+<p class="Piiy"> <strong class="KursGapi1 "> supersimple.dev</strong>  <span class="Span" style="color: rgb(74, 72, 72);">  &#64;SuperSimpleDev </span>   </p>
+<p class=" KursGapi2"> What is backend web development? A complete overview. New video is up! </p>
+</div>
+
+
+
+<div class=" Gaplar2Main">  
+
+<div class="GrayCorner"> </div>
+
+<div class="Slice1">
+<p class="youtube"> youtube.com </p>
+<p class="Backend">Backend web development-a complete overview (2021) </p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
